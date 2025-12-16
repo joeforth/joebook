@@ -1,11 +1,11 @@
 version: 1
 project:
+  id: 34e192ed-3090-4b0b-9c2b-978bcafd2788
   title: CHEM502 - Chemical Data, Discovery, and Design
   github: https://github.com/joeforth/joebook
   authors:
-    - id: Sam Chong
-      name: Sam Chong
-  id: 34e192ed-3090-4b0b-9c2b-978bcafd2788
+    - Sam Chong
+    - Joe Forth
   toc:
     - file: intro.md
 site:
