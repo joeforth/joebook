@@ -1,21 +1,12 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: 34e192ed-3090-4b0b-9c2b-978bcafd2788
   title: CHEM502 - Chemical Data, Discovery, and Design
+  github: https://github.com/joeforth/joebook
   authors:
-    - Sam Chong
-    - Joe Forth
-  github: joeforth/joebook
-  exports:
-    - format: pdf
-      template: plain_latex_book
-      output: exports/book.pdf
+    - id: Sam Chong
+      name: Sam Chong
+  id: 34e192ed-3090-4b0b-9c2b-978bcafd2788
   toc:
-    # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
     - file: intro.md
-  site:
-    template: book-theme
-    options:
-      favicon: favicon.ico
-      logo: site_logo.png
+site:
+  template: book-theme
