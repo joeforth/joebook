@@ -5,14 +5,12 @@ version: 1
 project:
   id: 34e192ed-3090-4b0b-9c2b-978bcafd2788
   title: CHEM502 - Chemical Data, Discovery, and Design
-  github: https://github.com/joeforth/chem502_book
+  github: joeforth/chem502_book
   authors:
     - Sam Chong
     - Joe Forth
-  exports:
-    - format: pdf
-      template: plain_latex_book
-      output: exports/book.pdf
+  bibliography:
+    - references.bib
   toc:
     - file: intro.md
     - title: Part 1 - Chemical Data
