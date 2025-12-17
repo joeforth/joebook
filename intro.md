@@ -4,6 +4,8 @@ This is the course book for the first half of CHEM502, covering Lectures 1-4 and
 
 You can find more course material at the CHEM502 [Canvas page](https://canvas.liverpool.ac.uk/courses/85632)
 
+## Contents
+
 ```{tableofcontents}
 ```
 
